@@ -1,0 +1,1155 @@
+{
+	"icnd1": {
+		"name": "ICND1",
+		"code": "100-105",
+		"duree": "90 minutes + 30 minutes",
+		"prix": "150 EUR",
+		"titre": "Cisco Certified Network Entry Technician CCENT",
+		"seuil": "80-85%",
+		"questions": "45-55 questions",
+		"url": "https://learningnetwork.cisco.com/community/certifications/ccna/icnd1",
+		"sujets": [
+			{
+				"name": "1.0 Fondamentaux des réseaux - 20 %",
+				"objectifs": [
+					{
+						"name": "1.1. Comparer et mettre en contraste les modèles OSI et TCP/IP"
+					},
+					{
+						"name": "1.2. Comparer et mettre en contraste les protocoles TCP et UDP"
+					},
+					{
+						"name": "1.3. Décrire l'impact des composants d'infrastructure dans un réseau d'entreprise Pare-feux Firewalls, Points d'accès Access points, Contrôleurs Wi-Fi Wireless controllers"
+					},
+					{
+						"name": "1.4. Décrire les effets des ressources de l'informatique en nuage dans les architecture des réseaux d'entreprise Traffic path to internal and external cloud services, Virtual services, Basic virtual network infrastructure"
+					},
+					{
+						"name": "1.5. Comparer et mettre en contraste les architectures collapsed core et three-tier"
+					},
+					{
+						"name": "1.6. Comparer et mettre en contraste les topologies réseau Star, Mesh, Hybrid"
+					},
+					{
+						"name": "1.7. Sélectionner le câblage approprié en se basant sur des exigences d'implémentation"
+					},
+					{
+						"name": "1.8. Appliquer des méthodes de dépannage pour résoudre des problèmes Réaliser et documenter l'isolation de l'erreur, Résolution ou escalade, Vérifier et surveiller la résolution"
+					},
+					{
+						"name": "1.9. Configurer, vérifier et dépanner l'adressage et le sous-réseautage IPv4"
+					},
+					{
+						"name": "1.10. Comparer et mettre en contraste les types d'adresse IPv4 Unicast, Broadcast, Multicast"
+					},
+					{
+						"name": "1.11. Décrire la nécessité d'un adressage IPv4 privé"
+					},
+					{
+						"name": "1.12. Identifier le plan d'adressage IPv6 approprié pour satisfaire aux exigences d'adressage dans un environnement LAN/WAN"
+					},
+					{
+						"name": "1.13. Configurer, vérifier et dépanner l'adressage IPv6"
+					},
+					{
+						"name": "1.14. Configurer, vérifier le service IPv6 Stateless Address Auto Configuration"
+					},
+					{
+						"name": "1.15. Comparer et mettre en contraste les types d'adresse IPv6 Global unicast, Unique local, Link local, Multicast, Modified EUI 64, Autoconfiguration, Anycast"
+					}
+				]
+			},
+			{
+				"name": "2.0 Technologies LAN - 26%",
+				"objectifs": [
+					{
+						"name": "2.1. Décrire et vérifier les concepts de commutation switching MAC learning and aging, Frame switching, Frame flooding, MAC address table"
+					},
+					{
+						"name": "2.2. Interpréter le format d'une trame Ethernet"
+					},
+					{
+						"name": "2.3. Dépanner des problèmes d'interface et de câblage collisions, erreurs, duplex, vitesse"
+					},
+					{
+						"name": "2.4. Configurer, vérifier et dépanner des VLANs normal/extended range recouvrants plusieurs commutateurs Access ports data and voice, Default VLAN"
+					},
+					{
+						"name": "2.5. Configurer, vérifier et dépanner l'inter-connectivité entre les commutateurs Trunk ports, Ajouter et retirer des VLANs sur un trunk, DTP, VTP v1&v2 et 802.1Q, Native VLAN"
+					},
+					{
+						"name": "2.7. Configurer, vérifier et dépanner port security Static, Dynamic, Sticky, Max MAC addresses, Violation actions, Err-disable recovery"
+					}
+				]
+			},
+			{
+				"name": "3.0 Routage IP - 25%",
+				"objectifs": [
+					{
+						"name": "3.1 Décrire les concepts du routage routing Prise en charge des paquets tout au long de leur trajet à travers le réseau, Décision de transfert sur base d'une recherche de route, Réécriture de la trame"
+					},
+					{
+						"name": "3.2 Interpréter les composants d'une table de routage Prefix, Network mask, Next hop, Routing protocol code, Administrative distance, Metric, Gateway of last resort"
+					},
+					{
+						"name": "3.3 Décrire comment une table de routage se construit par différentes sources d'information de routage Admin distance"
+					},
+					{
+						"name": "3.4 Configurer, vérifier et dépanner le routage inter-VLAN Router on a stick, SVI"
+					},
+					{
+						"name": "3.5 Comparer et mettre en contraste le routage statique et le routage dynamique"
+					},
+					{
+						"name": "3.6 Configurer, vérifier et dépanner le routage statique IPv4 et IPv6 Default route, Network route, Host route, Floating static"
+					},
+					{
+						"name": "3.7 Configurer, vérifier et dépanner RIPv2 pour IPv4 sauf authentification, filtrage, summarization manuelle, redistribution"
+					}
+				]
+			},
+			{
+				"name": "4.0 Services d'infrastructure - 15%",
+				"objectifs": [
+					{
+						"name": "4.1 Décrire les opérations de recherche DNS"
+					},
+					{
+						"name": "4.2 Dépanner des problèmes de connectivité client impliquant DNS"
+					},
+					{
+						"name": "4.3 Configurer et vérifier DHCP sur un routeur sauf les réservations statiques Server, Relay, Client, TFTP, DNS, and gateway options"
+					},
+					{
+						"name": "4.4 Dépanner des problèmes de connectivité DHCP client et routeur"
+					},
+					{
+						"name": "4.5. Configurer et vérifier NTP fonctionnant dans un mode client/serveur"
+					},
+					{
+						"name": "4.6. Configurer, vérifier et dépanner les ACL IPv4 standard numérotées et nommées sur les interfaces des routeurs"
+					},
+					{
+						"name": "4.7. Configurer, vérifier et dépanner inside source NAT Static, Pool, PAT"
+					}
+				]
+			},
+			{
+				"name": "5.0 Gestion d'infrastructure - 14%",
+				"objectifs": [
+					{
+						"name": "5.1 Configurer et vérifier les protocoles de surveillance des périphériques Syslog"
+					},
+					{
+						"name": "5.2 Configurer et vérifier la gestion du périphérique Backup et restore de la configuration du périphérique, Utilisation de Cisco Discovery Protocol ou LLDP pour la découverte des périphériques, Licensing, Logging, Timezone, Loopback"
+					},
+					{
+						"name": "5.3 Configurer et vérifier la configuration initiale d'un périphérique"
+					},
+					{
+						"name": "5.4 Configurer, vérifier et dépanner le renforcement sécuritaire hardening de base d'un périphérique Local authentication, Secure password, Access to device, Source address, Telnet/SSH, Login banner"
+					},
+					{
+						"name": "5.5 Réaliser la maintenance du périphérique Mise à jour et récupération Cisco IOS SCP, FTP, TFTP et vérification MD5, Password recovery et registre de configuration, Gestion du système de fichiers"
+					},
+					{
+						"name": "5.6 Utilisation des outils Cisco IOS pour dépanner et résoudre des problèmes Ping et traceroute avec l'option extended,Terminal monitor, Log events, Local SPAN"
+					}
+				]
+			}
+		]
+	},
+	"icnd2": {
+		"name": "ICND2",
+		"code": "200-105",
+		"duree": "90 minutes + 30 minutes",
+		"prix": "150 EUR",
+		"titre": "Cisco Certified Network Associate CCNA Routing & Switching (CCNA R&S)",
+		"seuil": "80-85%",
+		"questions": "45-55 questions",
+		"url": "https://learningnetwork.cisco.com/community/certifications/ccna/icnd2",
+		"sujets": [
+			{
+				"name": "1.0 Technologies LAN - 26%",
+				"objectifs": [
+					{
+						"name": "1.1 Configurer, vérifier et dépanner des VLANs normal/extended range recouvrants plusieurs commutateurs Access ports data and voice, Default VLAN"
+					},
+					{
+						"name": "1.2 Configurer, vérifier et dépanner l'inter-connectivité entre les commutateurs Trunk ports, Ajouter et retirer des VLANs sur un trunk, DTP, VTP v1&v2 et 802.1Q, Native VLAN"
+					},
+					{
+						"name": "1.3 Configurer, vérifier et dépanner les protocoles STP STP mode PVST+ et RPVST+, Sélection du bridge STP root"
+					},
+					{
+						"name": "1.4 Configurer, vérifier et dépanner les fonctionnalités STP optionnelles PortFast, BPDU guard"
+					},
+					{
+						"name": "1.5 Configurer, vérifier et dépanner EtherChannel Couche 2/Couche 3 Static, PAGP, LACP"
+					},
+					{
+						"name": "1.6 Décrire les avantages du stacking de commutateur et de l'aggrégation de chassis"
+					},
+					{
+						"name": "1.7 Décrire les techniques d'atténuation des menaces sur la couche d'accès 802.1x, DHCP snooping, Nondefault native VLAN"
+					}
+				]
+			},
+			{
+				"name": "2.0 Routage IP - 29%",
+				"objectifs": [
+					{
+						"name": "2.1 Configurer, vérifier et dépanner le routage inter-VLAN Router on a stick, SVI"
+					},
+					{
+						"name": "2.2 Comparer et mettre en contraste le routage statique et le routage dynamique"
+					},
+					{
+						"name": "2.3 Comparer et mettre en contraste les protocoles de routage à vecteur de distance distance vector et à état de lien link state"
+					},
+					{
+						"name": "2.4 Configurer, vérifier et dépanner OSPFv2 pour IPv4 en single area et en multi-area sauf authentification, filtrage, summarization manuelle, redistribution, stub, virtual-link et les LSAs"
+					},
+					{
+						"name": "2.5 Configurer, vérifier et dépanner OSPFv3 pour IPv6 en single area et en multi-area sauf authentification, filtrage, summarization manuelle, redistribution, stub, virtual-link et les LSAs"
+					},
+					{
+						"name": "2.6 Configurer, vérifier et dépanner EIGRP pour IPv4 sauf authentification, filtrage, summarization manuelle, redistribution, stub"
+					},
+					{
+						"name": "2.7 Configurer, vérifier et dépanner EIGRP pour IPv6 sauf authentification, filtrage, summarization manuelle, redistribution, stub"
+					}
+				]
+			},
+			{
+				"name": "3.0 Technologies WAN - 16%",
+				"objectifs": [
+					{
+						"name": "3.1 Configurer et vérifier PPP et MLPPP sur des interfaces WAN en utilisant une authentification locale"
+					},
+					{
+						"name": "3.2 Configurer, vérifier et dépanner des interfaces PPPoE côté client qui utilisent une authentification locale"
+					},
+					{
+						"name": "3.3 Configurer, vérifier et dépanner la connectivité d'un tunnel GRE"
+					},
+					{
+						"name": "3.4 Décrire les options de technologies WAN Point-to-point, Hub and spoke, Full mesh, Single vs dual-homed"
+					},
+					{
+						"name": "3.5 Décrire les options de connectivité d'accès WAN MPLS, Metro Ethernet, Broadband PPPoE, Internet VPN DMVPN, site-to-site VPN, client VPN"
+					},
+					{
+						"name": "3.6 Configurer et vérifier la connectivité d'un site single-homed branch en utilisant eBGP IPv4 limité au peering et l'annonce de route via la commande network"
+					}
+				]
+			},
+			{
+				"name": "4.0 Services d'infrastructure - 14%",
+				"objectifs": [
+					{
+						"name": "4.1 Configurer, vérifier et dépanner HSRP de manière basique Priority, Preemption, Version"
+					},
+					{
+						"name": "4.2 Décrire les effets des ressources de l'informatique en nuage dans les architecture des réseaux d'entreprise Traffic path to internal and external cloud services, Virtual services, Basic virtual network infrastructure"
+					},
+					{
+						"name": "4.3 Décrire les concepts QoS de base Marking, Device trust, Prioritization : i Voice, ii Video, iii Data, Shaping, Policing, Congestion management"
+					},
+					{
+						"name": "4.4 Configurer, vérifier et dépanner des access lists IPv4 et IPv6 pour filtrer du trafic Standard, Extended, Named"
+					},
+					{
+						"name": "4.5 Vérifier les ACLs en utilisant l'outil d'analyse APIC-EM Path Trace"
+					}
+				]
+			},
+			{
+				"name": "5.0 Gestion de l'infrastructure - 15%",
+				"objectifs": [
+					{
+						"name": "5.1 Configurer et vérifier les protocoles de surveillance des périphériques SNMPv2, SNMPv3"
+					},
+					{
+						"name": "5.2 Dépanner des problèmes de connectivité en utilisant des ICMP echo-based IP SLA"
+					},
+					{
+						"name": "5.3 Utilisation des outils Cisco IOS pour dépanner et résoudre des problèmes Local SPAN"
+					},
+					{
+						"name": "5.4 Décrire la sécurité des périphériques par l'usage de AAA avec TACACS+ et RADIUS"
+					},
+					{
+						"name": "5.5 Décrire la programmabilité du réseau dans les architectures d'entreprise Fonction d'un contrôlleur, Séparation du plan de contrôle control plane et du plan data, APIs northbound et southbound"
+					},
+					{
+						"name": "5.6 Dépanner des problèmes de connectivité de base de bout-en-bout end-to-end de couche 3"
+					}
+				]
+			}
+		]
+	},
+	"ccnax": {
+		"name": "CCNA R&S",
+		"code": "200-125",
+		"duree": "90 minutes + 30 minutes",
+		"prix": "300 EUR",
+		"titre": "Cisco Certified Network Associate CCNA Routing & Switching (CCNA R&S)",
+		"seuil": "80-85%",
+		"questions": "60-70 questions",
+		"url": "https://learningnetwork.cisco.com/community/certifications/ccna/ccna-exam",
+		"sujets": [
+			{
+				"name": "1.0 Fondamentaux des réseaux - 15%",
+				"objectifs": [
+					{
+						"name": "1.1 Comparer et mettre en contraste les modèles OSI et TCP/IP"
+					},
+					{
+						"name": "1.2 Comparer et mettre en contraste les protocoles TCP et UDP"
+					},
+					{
+						"name": "1.3 Décrire l'impact des composants d'infrastructure dans un réseau d'entreprise Pare-feux Firewalls, Points d'accès Access points, Contrôleurs Wi-Fi Wireless controllers"
+					},
+					{
+						"name": "1.4 Décrire les effets des ressources de l'informatique en nuage dans les architecture des réseaux d'entreprise Traffic path to internal and external cloud services, Virtual services, Basic virtual network infrastructure"
+					},
+					{
+						"name": "1.5 Comparer et mettre en contraste les architectures collapsed core et three-tier"
+					},
+					{
+						"name": "1.6 Comparer et mettre en contraste les topologies réseau Star, Mesh, Hybrid"
+					},
+					{
+						"name": "1.7 Sélectionner le câblage approprié en se basant sur des exigences d'implémentation"
+					},
+					{
+						"name": "1.8 Appliquer des méthodes de dépannage pour résoudre des problèmes Réaliser et documenter l'isolation de l'erreur, Résolution ou escalade, Vérifier et surveiller la résolution"
+					},
+					{
+						"name": "1.9. Configurer, vérifier et dépanner l'adressage et le sous-réseautage IPv4"
+					},
+					{
+						"name": "1.10 Comparer et mettre en contraste les types d'adresse IPv4 Unicast, Broadcast, Multicast"
+					},
+					{
+						"name": "1.11 Décrire la nécessité d'un adressage IPv4 privé"
+					},
+					{
+						"name": "1.12 Identifier le plan d'adressage IPv6 approprié pour satisfaire aux exigences d'adressage dans un environnement LAN/WAN"
+					},
+					{
+						"name": "1.13 Configurer, vérifier et dépanner l'adressage IPv6"
+					},
+					{
+						"name": "1.14 Configurer, vérifier le service IPv6 Stateless Address Auto Configuration"
+					},
+					{
+						"name": "1.15 Comparer et mettre en contraste les types d'adresse IPv6 Global unicast, Unique local, Link local, Multicast, Modified EUI 64, Autoconfiguration, Anycast"
+					}
+				]
+			},
+			{
+				"name": "2.0 Technologies LAN - 21%",
+				"objectifs": [
+					{
+						"name": "2.1 Décrire et vérifier les concepts de commutation switching (MAC learning and aging, Frame switching, Frame flooding MAC address table)"
+					},
+					{
+						"name": "2.2 Interpréter le format d'une trame Ethernet"
+					},
+					{
+						"name": "2.3 Dépanner des problèmes d'interface et de câblage collisions, erreurs, duplex, vitesse"
+					},
+					{
+						"name": "2.4 Configurer, vérifier et dépanner des VLANs normal/extended range recouvrants plusieurs commutateurs (Access ports data and voice, Default VLAN)"
+					},
+					{
+						"name": "2.5 Configurer, vérifier et dépanner l'inter-connectivité entre les commutateurs (Trunk ports, Ajouter et retirer des VLANs sur un trunk, DTP, VTP v1&v2 et 802.1Q, Native VLAN)"
+					},
+					{
+						"name": "2.6 Configurer, vérifier et dépanner les protocoles STP (STP mode PVST+ et RPVST+, Sélection du bridge STP root)"
+					},
+					{
+						"name": "2.7 Configurer, vérifier et dépanner les fonctionnalités STP optionnelles (PortFast, BPDU guard)"
+					},
+					{
+						"name": "2.8 Configurer et vérifier les protocoles Couche 2 L2 (Cisco Discovery Protocol, LLDP)"
+					},
+					{
+						"name": "2.9 Configurer, vérifier et dépanner EtherChannel Couche 2/Couche 3 (Static, PAGP, LACP)"
+					},
+					{
+						"name": "2.10 Décrire les avantages du stacking de commutateur et de l'aggrégation de chassis"
+					}
+				]
+			},
+			{
+				"name": "3.0 Routage IP - 23%",
+				"objectifs": [
+					{
+						"name": "3.1 Décrire les concepts du routage routing (Prise en charge des paquets tout au long de leur trajet à travers le réseau, Décision de transfert sur base d'une recherche de route, Réécriture de la trame)"
+					},
+					{
+						"name": "3.2 Interpréter les composants d'une table de routage (Prefix, Network mask, Next hop, Routing protocol code, Administrative distance, Metric, Gateway of last resort)"
+					},
+					{
+						"name": "3.3 Décrire comment une table de routage se construit par différentes sources d'information de routage (Admin distance)"
+					},
+					{
+						"name": "3.4 Configurer, vérifier et dépanner le routage inter-VLAN, Router on a stick, SVI)"
+					},
+					{
+						"name": "3.5 Comparer et mettre en contraste le routage statique et le routage dynamique"
+					},
+					{
+						"name": "3.6 Comparer et mettre en contraste les protocoles de routage à vecteur de distance distance vector et à état de lien link state"
+					},
+					{
+						"name": "3.7 Comparer et mettre en contraste les protocoles de routage intérieur et extérieur"
+					},
+					{
+						"name": "3.8 Configurer, vérifier et dépanner le routage statique IPv4 et IPv6 (Default route, Network route, Host route, Floating static)"
+					},
+					{
+						"name": "3.9 Configurer, vérifier et dépanner OSPFv2 pour IPv4 en single area et en multi-area sauf authentification, filtrage, summarization manuelle, redistribution, stub, virtual-link et les LSAs"
+					},
+					{
+						"name": "3.10 Configurer, vérifier et dépanner OSPFv3 pour IPv6 en single area et en multi-area sauf authentification, filtrage, summarization manuelle, redistribution, stub, virtual-link et les LSAs"
+					},
+					{
+						"name": "3.11 Configurer, vérifier et dépanner EIGRP pour IPv4 sauf authentification, filtrage, summarization manuelle, redistribution, stub"
+					},
+					{
+						"name": "3.12 Configurer, vérifier et dépanner EIGRP pour IPv6 sauf authentification, filtrage, summarization manuelle, redistribution, stub"
+					},
+					{
+						"name": "3.13 Configurer, vérifier et dépanner RIPv2 pour IPv4 sauf authentification, filtrage, summarization manuelle, redistribution"
+					},
+					{
+						"name": "3.14 Dépanner des problèmes de connectivité de base de bout-en-bout end-to-end de couche 3"
+					}
+				]
+			},
+			{
+				"name": "4.0 Technologies WAN - 10%",
+				"objectifs": [
+					{
+						"name": "4.1 Configurer et vérifier PPP et MLPPP sur des interfaces WAN en utilisant une authentification locale"
+					},
+					{
+						"name": "4.2 Configurer, vérifier et dépanner des interfaces PPPoE côté client qui utilisent une authentification locale"
+					},
+					{
+						"name": "4.3 Configurer, vérifier et dépanner la connectivité d'un tunnel GRE"
+					},
+					{
+						"name": "4.4 Décrire les options de technologies WAN (Point-to-point, Hub and spoke, Full mesh, Single vs dual-homed)"
+					},
+					{
+						"name": "4.5 Décrire les options de connectivité d'accès WAN (MPLS, Metro Ethernet, Broadband PPPoE, Internet VPN DMVPN, site-to-site VPN, client VPN)"
+					},
+					{
+						"name": "4.6 Configurer et vérifier la connectivité d'un site single-homed branch en utilisant eBGP IPv4 limité au peering et l'annonce de route via la commande network"
+					},
+					{
+						"name": "4.7 Décrire les concepts QoS de base (Marking, Device trust, Prioritization : i Voice, ii Video, iii Data, Shaping, Policing, Congestion management)"
+					}
+				]
+			},
+			{
+				"name": "5.0 Services d'infrastructure - 10%",
+				"objectifs": [
+					{
+						"name": "5.1 Décrire les opérations de recherche DNS"
+					},
+					{
+						"name": "5.2 Dépanner des problèmes de connectivité client impliquant DNS"
+					},
+					{
+						"name": "5.3 Configurer et vérifier DHCP sur un routeur sauf les réservations statiques (Server, Relay, Client, TFTP, DNS, and gateway options)"
+					},
+					{
+						"name": "5.4 Dépanner des problèmes de connectivité DHCP client et routeur"
+					},
+					{
+						"name": "5.5 Configurer, vérifier et dépanner HSRP de manière basique (Priority, Preemption, Version)"
+					},
+					{
+						"name": "5.6 Configurer, vérifier et dépanner inside source NAT (Static, Pool, PAT)"
+					},
+					{
+						"name": "5.7 Configurer et vérifier NTP fonctionnant dans un mode client/serveur"
+					}
+				]
+			},
+			{
+				"name": "6.0 Sécurité de l'infrastructure - 11%",
+				"objectifs": [
+					{
+						"name": "6.1 Configurer, vérifier et dépanner port security (Static, Dynamic, Sticky, Max MAC addresses, Violation actions, Err-disable recovery)"
+					},
+					{
+						"name": "6.2 Décrire les techniques d'atténuation des menaces sur la couche d'accès (802.1x, DHCP snooping, Nondefault native VLAN)"
+					},
+					{
+						"name": "6.3 Configurer, vérifier et dépanner des access lists IPv4 et IPv6 pour filtrer du trafic (Standard, Extended, Named)"
+					},
+					{
+						"name": "6.4 Vérifier les ACLs en utilisant l'outil d'analyse APIC-EM Path Trace"
+					},
+					{
+						"name": "6.5 Configurer, vérifier et dépanner le device hardening de base (Local authentication, Secure password, Access to device : i Source address, ii Telnet/SSH, Login banner)"
+					},
+					{
+						"name": "6.6 Décrire la sécurité des périphériques par l'usage de AAA avec TACACS+ et RADIUS"
+					}
+				]
+			},
+			{
+				"name": "7.0 Gestion de l'infrastructure - 10%",
+				"objectifs": [
+					{
+						"name": "7.1 Configurer et vérifier les protocoles de surveillance des périphériques (SNMPv2,SNMPv3,Syslog)"
+					},
+					{
+						"name": "7.2 Dépanner des problèmes de connectivité en utilisant des ICMP echo-based IP SLA"
+					},
+					{
+						"name": "7.3 Configurer et vérifier la gestion du périphérique (Backup et restore de la configuration du périphérique, Utilisation de Cisco Discovery Protocol ou LLDP pour la découverte des périphériques, Licensing, Logging, Timezone, Loopback)"
+					},
+					{
+						"name": "7.4 Configurer et vérifier la configuration initiale d'un périphérique"
+					},
+					{
+						"name": "7.5 Réaliser la maintenance du périphérique (Mise à jour et récupération Cisco IOS SCP, FTP, TFTP et vérification MD5, Password recovery et registre de configuration, Gestion du système de fichiers)"
+					},
+					{
+						"name": "7.6 Utilisation des outils Cisco IOS pour dépanner et résoudre des problèmes (Ping et traceroute avec l'option extended, Terminal monitor, Log events, Local SPAN)"
+					},
+					{
+						"name": "7.7 Décrire la programmabilité du réseau dans les architectures d'entreprise (Fonction d'un contrôlleur, Séparation du plan de contrôle control plane et du plan data, APIs northbound et southbound)"
+					}
+				]
+			}
+		]
+	},
+	"null": {
+		"name": null,
+		"sujets": [
+			{
+				"name": "null",
+				"objectifs": [
+					{
+						"name": "Ce document ne couvre aucun objectif de certification"
+					}
+				]
+			}
+		]
+	},
+	"iins": {
+		"name": "Implementing Cisco Network Security (IINS)",
+		"code": "210-260",
+		"duree": "90 minutes + 30 minutes",
+		"prix": "150-250 EUR",
+		"titre": "CCNA Security",
+		"seuil": "80-85%",
+		"questions": "60-70 questions",
+		"url": "https://learningnetwork.cisco.com/community/certifications/security_ccna/iins-v3",
+		"sujets": [
+			{
+				"name": "1.0 Concepts de sécurité",
+				"objectifs": [
+					{
+						"name": "1.1. Principes courants de sécurité"
+					},
+					{
+						"name": "1.1.a Décrire la confidentialité, l'intégrité, la disponibilté (CIA)"
+					},
+					{
+						"name": "1.1.b Décrire la technologie SIEM"
+					},
+					{
+						"name": "1.1.c Identifier les termes courants de securité"
+					},
+					{
+						"name": "1.1.d Identifier les zones courants de sécurité du réseau"
+					},
+					{
+						"name": "1.2. Menaces courantes de sécurité"
+					},
+					{
+						"name": "1.2.a Identifier les attaques réseau courantes"
+					},
+					{
+						"name": "1.2.b Décrire l'ingénierie sociale"
+					},
+					{
+						"name": "1.2.c Identifier les logiciels malveillants"
+					},
+					{
+						"name": "1.2.d Classer les vecteurs de perte / d'exfiltration de données"
+					},
+					{
+						"name": "1.3. Concepts de cryptographie"
+					},
+					{
+						"name": "1.3.a Décrire l'échange de clés"
+					},
+					{
+						"name": "1.3.b Décrire un algorithme de hachage"
+					},
+					{
+						"name": "1.3.c Comparer et mettre en contraste le cryptage symétrique et asymétrique"
+					},
+					{
+						"name": "1.3.d Décrire les signatures numériques, les certificats et une PKI"
+					},
+					{
+						"name": "1.4. Décrire les topologies du réseau"
+					},
+					{
+						"name": "1.4.a Réseau de campus (CAN)"
+					},
+					{
+						"name": "1.4.b Cloud, réseau étendu (WAN)"
+					},
+					{
+						"name": "1.4.c Centre de données"
+					},
+					{
+						"name": "1.4.d Petit bureau / bureau à domicile (SOHO)"
+					},
+					{
+						"name": "1.4.e Sécurité réseau pour un environnement virtuel"
+					}
+				]
+			},
+			{
+				"name": "2.0 Accès sécurisé",
+				"objectifs": [
+					{
+						"name": "2.1. Gestion sécurisée"
+					},
+					{
+						"name": "2.1.a Comparer in-band et out-of-band"
+					},
+					{
+						"name": "2.1.b Configurer la gestion sécurisée du réseau"
+					},
+					{
+						"name": "2.1.c Configurer et vérifier l'accès sécurisé via SNMPv3 à l'aide d'une liste de contrôle d'accès"
+					},
+					{
+						"name": "2.1.d Configurer et vérifier la sécurité pour NTP"
+					},
+					{
+						"name": "2.1.e Utiliser SCP pour le transfert de fichiers"
+					},
+					{
+						"name": "2.2. Concepts AAA"
+					},
+					{
+						"name": "2.2.a Décrire les technologies RADIUS et TACACS +"
+					},
+					{
+						"name": "2.2.b Configurer l'accès administrateur sur un routeur Cisco à l'aide de TACACS +"
+					},
+					{
+						"name": "2.2.c Vérifier la connectivité sur un routeur Cisco à un serveur TACACS +"
+					},
+					{
+						"name": "2.2.d Expliquer l'intégration d'Active Directory avec AAA"
+					},
+					{
+						"name": "2.2.e Décrire l'authentification et l'autorisation en utilisant ACS et ISE"
+					},
+					{
+						"name": "2.3. Authentification 802.1X"
+					},
+					{
+						"name": "2.3.a Identifier les fonctions et composants 802.1X"
+					},
+					{
+						"name": "2.4. BYOD"
+					},
+					{
+						"name": "2.4.a Décrire le cadre de l'architecture BYOD"
+					},
+					{
+						"name": "2.4.b Décrire la fonction de gestion des appareils mobiles (MDM)"
+					}
+				]
+			},
+			{
+				"name": "3.0 VPN",
+				"objectifs": [
+					{
+						"name": "3.1. Concepts VPN"
+					},
+					{
+						"name": "3.1.a Décrire les protocoles IPsec et les modes de livraison (IKE, ESP, AH, mode tunnel, mode transport)"
+					},
+					{
+						"name": "3.1.b Décrire hairpinning, split tunneling, always-on, NAT traversal"
+					},
+					{
+						"name": "3.2. VPN d'accès à distance"
+					},
+					{
+						"name": "3.2.a Implémenter un VPN SSL sans client de base à l'aide de l'ASDM"
+					},
+					{
+						"name": "3.2.b Vérifier la connexion sans client"
+					},
+					{
+						"name": "3.2.c Implémenter un VPN SSL AnyConnect de base à l'aide de l'ASDM"
+					},
+					{
+						"name": "3.2.d Vérifier la connexion AnyConnect"
+					},
+					{
+						"name": "3.2.e Identifier l'évaluation du point final"
+					},
+					{
+						"name": "3.3. VPN de site à site"
+					},
+					{
+						"name": "3.3.a Implémenter un VPN de site à site IPsec avec authentification par clé pré-partagée sur les routeurs Cisco et les pare-feu ASA"
+					},
+					{
+						"name": "3.3.b Vérifier un VPN de site à site IPsec"
+					}
+				]
+			},
+			{
+				"name": "4.0 Routage et commutation sécurisés",
+				"objectifs": [
+					{
+						"name": "4.1. Sécurité sur les routeurs Cisco"
+					},
+					{
+						"name": "4.1.a Configurer plusieurs niveaux de privilèges"
+					},
+					{
+						"name": "4.1.b Configurer l'accès CLI basé sur le rôle Cisco IOS"
+					},
+					{
+						"name": "4.1.c Mettre en oeuvre la configuration résiliente Cisco IOS"
+					},
+					{
+						"name": "4.2. Sécurisation des protocoles de routage"
+					},
+					{
+						"name": "4.2.a Implémenter l'authentification de mise à jour de routage en OSPF"
+					},
+					{
+						"name": "4.3. Sécurisation du plan de contrôle"
+					},
+					{
+						"name": "4.3.a Expliquer la fonction de contrôle du plan de contrôle"
+					},
+					{
+						"name": "4.4. Attaques communes de couche 2"
+					},
+					{
+						"name": "4.4.a Décrire les attaques STP"
+					},
+					{
+						"name": "4.4.b Décrire d'usurpation ARP"
+					},
+					{
+						"name": "4.4.c Décrire l'usurpation d'adresse MAC"
+					},
+					{
+						"name": "4.4.d Décrire les débordements de la table CAM (table d'adresses MAC)"
+					},
+					{
+						"name": "4.4.e Décrire la reconnaissance CDP / LLDP"
+					},
+					{
+						"name": "4.4.f Décrire le saut de VLAN (VLAN hopping)"
+					},
+					{
+						"name": "4.4.g Décrire l'usurpation de DHCP"
+					},
+					{
+						"name": "4.5. Procédures d'atténuation"
+					},
+					{
+						"name": "4.5.a Implémentation de la surveillance DHCP (DHCP snooping)"
+					},
+					{
+						"name": "4.5.b Mettre en oeuvre l'inspection ARP dynamique (Dynamic ARP Inspection, DAI)"
+					},
+					{
+						"name": "4.5.c Mettre en oeuvre port security"
+					},
+					{
+						"name": "4.5.d Décrire la protection BPDU guard, root guard, loop guard"
+					},
+					{
+						"name": "4.5.e Vérifier les procédures d'atténuation"
+					},
+					{
+						"name": "4.6. Sécurité VLAN"
+					},
+					{
+						"name": "4.6.a Décrire les implications de sécurité d'un PVLAN"
+					},
+					{
+						"name": "4.6.b Décrire les implications de sécurité d'un VLAN natif"
+					}
+				]
+			},
+			{
+				"name": "5.0 Technologies de pare-feu Cisco",
+				"objectifs": [
+					{
+						"name": "5.1. Décrire les forces et les faiblesses opérationnelles des différentes technologies de pare-feu"
+					},
+					{
+						"name": "5.1.a Pare-feu proxy"
+					},
+					{
+						"name": "5.1.b Pare-feu d'application"
+					},
+					{
+						"name": "5.1.c Pare-feu personnel"
+					},
+					{
+						"name": "5.2. Comparaison entre les pare-feu étatisés et les pare-feu sans état"
+					},
+					{
+						"name": "5.2.a Opérations"
+					},
+					{
+						"name": "5.2.b Fonction de la table d'état"
+					},
+					{
+						"name": "5.3. Implémenter NAT sur Cisco ASA 9.x"
+					},
+					{
+						"name": "5.3.a Statique"
+					},
+					{
+						"name": "5.3.b Dynamique"
+					},
+					{
+						"name": "5.3.c PAT"
+					},
+					{
+						"name": "5.3.d Politique NAT"
+					},
+					{
+						"name": "5.3 e Vérifier les opérations NAT"
+					},
+					{
+						"name": "5.4. Mettre en œuvre un pare-feu basé sur une zone"
+					},
+					{
+						"name": "5.4.a Zone à zone"
+					},
+					{
+						"name": "5.4.b Self zone"
+					},
+					{
+						"name": "5.5. Caractéristiques du pare-feu sur un Cisco Adaptive Security Appliance (ASA) 9.x"
+					},
+					{
+						"name": "5.5.a Configurer la gestion des accès ASA"
+					},
+					{
+						"name": "5.5.b Configurer les stratégies d'accès de sécurité"
+					},
+					{
+						"name": "5.5.c Configurer les niveaux de sécurité de l'interface Cisco ASA"
+					},
+					{
+						"name": "5.5.d Configurer le Cisco Modular Policy Framework (MPF) par défaut"
+					},
+					{
+						"name": "5.5.e Décrire les modes de déploiement (pare-feu routé, pare-feu transparent)"
+					},
+					{
+						"name": "5.5.f Décrire les méthodes de mise en œuvre de la haute disponibilité"
+					},
+					{
+						"name": "5.5.g Décrire les contextes de sécurité"
+					},
+					{
+						"name": "5.5.h Décrire les services de pare-feu"
+					}
+				]
+			},
+			{
+				"name": "6.0 IPS",
+				"objectifs": [
+					{
+						"name": "6.1. Décrire les considérations de déploiement d'un IPS"
+					},
+					{
+						"name": "6.1.a IPS basé réseau ou IPS basé hôte"
+					},
+					{
+						"name": "6.1.b Modes de déploiement (inline, promiscuous - SPAN, tap)"
+					},
+					{
+						"name": "6.1.c Placement (positionnement de l'IPS dans le réseau)"
+					},
+					{
+						"name": "6.1.d Faux positifs, faux négatifs, vrais positifs, vrais négatifs"
+					},
+					{
+						"name": "6.2. Décrire les technologies IPS"
+					},
+					{
+						"name": "6.2.a Règles / signatures"
+					},
+					{
+						"name": "6.2.b Moteurs de détection / signature"
+					},
+					{
+						"name": "6.2.c Actions / réponses de déclenchement (drop, reset, block, alert, monitor/log, shun)"
+					},
+					{
+						"name": "6.2.d Liste noire (statique et dynamique)"
+					}
+				]
+			},
+			{
+				"name": "7.0 Sécurité du contenu et des points de terminaison",
+				"objectifs": [
+					{
+						"name": "7.1. Décrire la technologie d'atténuation pour les menaces par courrier électronique"
+					},
+					{
+						"name": "7.1.a Filtrage anti-spam, filtrage anti-malware, DLP, blacklisting, cryptage email"
+					},
+					{
+						"name": "7.2. Décrire la technologie d'atténuation pour les menaces Web"
+					},
+					{
+						"name": "7.2.a Proxy Web locaux et basés sur le cloud"
+					},
+					{
+						"name": "7.2.b Liste noire, filtrage d'URL, analyse de logiciels malveillants, catégorisation d'URL, filtrage d'applications Web, déchiffrement TLS / SSL"
+					},
+					{
+						"name": "7.3. Décrire la technologie d'atténuation pour les menaces sur les hôtes terminaux"
+					},
+					{
+						"name": "7.3.a Anti-virus / anti-malware"
+					},
+					{
+						"name": "7.3.b Pare-feu personnel / HIPS"
+					},
+					{
+						"name": "7.3.c Chiffrement matériel / logiciel des données locales"
+					}
+				]
+			}
+		]
+	},
+	"ccna": {
+		"name": "CCNA",
+		"code": "200-301",
+		"duree": "120 minutes + 30 minutes",
+		"prix": "inconnu",
+		"titre": "Cisco Certified Network Associate",
+		"seuil": "80-85%",
+		"questions": "inconnu",
+		"url": "https://learningnetwork.cisco.com/community/certifications/ccna-cert/ccna-exam",
+		"sujets": [
+			{
+				"name": "1.0 Fondamenteaux des Réseaux - 20%",
+				"objectifs": [
+					{
+						"name": "1.1 Expliquer le rôle et la fonction des composants réseau\n* 1.1.a Routers\n* 1.1.b Commutateurs (switches) L2 et L3\n* 1.1.c Pare-feu NG (Next-generation firewalls) et IPS\n* 1.1.d Point d'accès (Access points)\n* 1.1.e Controlleurs (Cisco DNA Center and WLC)\n* 1.1.f Points terminaux (Endpoints)\n* 1.1.g Serveurs\n"
+					},
+					{
+						"name": "1.2 Décrire les caractéristiques des architectures et topologies réseau\n* 1.2.a 2 tier\n* 1.2.b 3 tier\n* 1.2.c Spine-leaf\n* 1.2.d WAN\n* 1.2.e Small office/home office (SOHO)\n* 1.2.f On-premises and cloud\n"
+					},
+					{
+						"name": "1.3 Comparer les interfaces physiques et les types de câble\n* 1.3.a Fibre monmode (Single-mode) et fibre multimode, cuivre\n* 1.3.b Connexions (Ethernet shared media et point-to-point)\n* 1.3.c Concepts sur PoE\n"
+					},
+					{
+						"name": "1.4 Identifier les problèmes d'interface et de câbles (collisions, errors, mismatch duplex, et/ou speed)\n"
+					},
+					{
+						"name": "1.5 Comparer TCP à UDP\n"
+					},
+					{
+						"name": "1.6 Configurer et verifier l'adressage et le sous-réseautage (subnetting) IPv4\n"
+					},
+					{
+						"name": "1.7 Décrire la nécessité d'un adressage IPv4 privé\n"
+					},
+					{
+						"name": "1.8 Configurer et verifier l'adressage et les préfixes IPv6\n"
+					},
+					{
+						"name": "1.9 Comparer les types d'adresses IPv6\n* 1.9.a Global unicast\n* 1.9.b Unique local\n* 1.9.c Link local\n* 1.9.d Anycast\n* 1.9.e Multicast\n* 1.9.f Modified EUI 64\n"
+					},
+					{
+						"name": "1.10 Vérifier les paramètres IP des OS clients (Windows, Mac OS, Linux)\n"
+					},
+					{
+						"name": "1.11 Décrire les principes des réseaux sans-fil\n* 1.11.a Nonoverlapping Wi-Fi channels\n* 1.11.b SSID\n* 1.11.c RF\n* 1.11.d Encryption\n"
+					},
+					{
+						"name": "1.12 Expliquer les fondamentaux de la virtualisation (virtual machines)\n"
+					},
+					{
+						"name": "1.13 Décrire les concepts de la commutation (switching)\n* 1.13.a MAC learning and aging\n* 1.13.b Frame switching\n* 1.13.c Frame flooding\n* 1.13.d MAC address table\n"
+					}
+				]
+			},
+			{
+				"name": "2.0 Accès au Réseau - 20%",
+				"objectifs": [
+					{
+						"name": "2.1 Configurer et verifier les VLANs (normal range) couvrant plusieurs switches\n* 2.1.a Access ports (data and voice)\n* 2.1.b Default VLAN\n* 2.1.c Connectivity\n"
+					},
+					{
+						"name": "2.2 Configurer et verifier la connectivité interswitch\n* 2.2.a Trunk ports\n* 2.2.b 802.1Q\n* 2.2.c Native VLAN\n"
+					},
+					{
+						"name": "2.3 Configurer et verifier les protocoles de découverte Layer 2 (Cisco Discovery Protocol et LLDP)\n"
+					},
+					{
+						"name": "2.4 Configurer et verifier (Layer 2/Layer 3) EtherChannel (LACP)\n"
+					},
+					{
+						"name": "2.5 Décrire la nécessité et les operations de base de Rapid PVST+ Spanning Tree Protocol\n* 2.5.a Root port, root bridge (primary/secondary), et les autres noms de port\n* 2.5.b Port states (forwarding/blocking)\n* 2.5.c Avantages PortFast\n"
+					},
+					{
+						"name": "2.6 Comparer les architectures Cisco Wireless Architectures et les modes des APs\n"
+					},
+					{
+						"name": "2.7 Décrire les connexions physiques d'infrastructure des composants WLAN (AP,WLC, access/trunk ports, et LAG)\n"
+					},
+					{
+						"name": "2.8 Décire les connexions des accès de gestion des APs and du WLC (Telnet, SSH, HTTP,HTTPS, console, and TACACS+/RADIUS)\n"
+					},
+					{
+						"name": "2.9 Configurer les composants d'un accès au LAN sans-fil pour la connectivité d'un client en utilisant un GUI seulement pour la création du WLAN, les paramètres de sécurité, les profiles QoS et des paramètres WLAN avancés\n"
+					}
+				]
+			},
+			{
+				"name": "3.0 Connectivité IP - 25%",
+				"objectifs": [
+					{
+						"name": "3.1 Interpréter les composants d'une table de routage\n* 3.1.a Routing protocol code\n* 3.1.b Prefix\n* 3.1.c Network mask\n* 3.1.d Next hop\n* 3.1.e Administrative distance\n* 3.1.f Metric\n* 3.1.g Gateway of last resort\n"
+					},
+					{
+						"name": "3.2 Déterminer comment un routeur prend une décision de transfert par défaut\n* 3.2.a Longest match\n* 3.2.b Administrative distance\n* 3.2.c Routing protocol metric\n"
+					},
+					{
+						"name": "3.3 Configurer et verifier le routage statique IPv4 and IPv6\n* 3.3.a Default route\n* 3.3.b Network route\n* 3.3.c Host route\n* 3.3.d Floating static\n"
+					},
+					{
+						"name": "3.4 Configurer et verifier single area OSPFv2\n* 3.4.a Neighbor adjacencies\n* 3.4.b Point-to-point\n* 3.4.c Broadcast (DR/BDR selection)\n* 3.4.d Router ID\n"
+					},
+					{
+						"name": "3.5 Décrire le but des protocoles de redondance du premier saut (first hop redundancy protocol)\n"
+					}
+				]
+			},
+			{
+				"name": "4.0 Services IP - 10%",
+				"objectifs": [
+					{
+						"name": "4.1 Configurer et verifier inside source NAT (static et pools)\n"
+					},
+					{
+						"name": "4.2 Configurer et verifier NTP dans le mode client and le mode server\n"
+					},
+					{
+						"name": "4.3 Expliquer le rôle de DHCP et de DNS au sein du réseau\n"
+					},
+					{
+						"name": "4.4 Expliquer la fonction de SNMP dans les opérations réseau\n"
+					},
+					{
+						"name": "4.5 Décrire l'utilisation des fonctionnalités de syslog features en ce inclus les facilities et niveaux\n"
+					},
+					{
+						"name": "4.6 Configurer et verifier DHCP client et relay\n"
+					},
+					{
+						"name": "4.7 Expliquer le forwarding per-hop behavior (PHB) pour QoS comme classification, marking, queuing, congestion, policing, shaping\n"
+					},
+					{
+						"name": "4.8 Configurer les périphériques pour un accès distant avec SSH\n"
+					},
+					{
+						"name": "4.9 Décrire les capacités la fonction de TFTP/FTP dans un réseau\n"
+					}
+				]
+			},
+			{
+				"name": "5.0 Sécurité de base - 15%",
+				"objectifs": [
+					{
+						"name": "5.1 Définir les concepts clé de la sécurité (menaces, vulnerabilités, exploits, et les techniques d'atténuation)\n"
+					},
+					{
+						"name": "5.2 Décrire les éléments des programmes de sécurité (sensibilisation des utilisateurs, formation, le contrôle d'accès physique)\n"
+					},
+					{
+						"name": "5.3 Configurer l'accès aux périphériques avec des mots de passe\n"
+					},
+					{
+						"name": "5.4 Décrire les éléments des politiques de sécurité comme la gestion, la complexité, et les alternatives aux mots de passe  (authentications multifacteur, par certificats, et biométriques)\n"
+					},
+					{
+						"name": "5.5 Décrire les VPNs remote access et site-to-site\n"
+					},
+					{
+						"name": "5.6 Configurer et vérifier les access control lists\n"
+					},
+					{
+						"name": "5.7 Configurer les fonctionnalités de sécurité Layer 2 (DHCP snooping, dynamic ARP inspection, et port security)\n"
+					},
+					{
+						"name": "5.8 Distinguer les concepts authentication, authorization, et accounting\n"
+					},
+					{
+						"name": "5.9 Décrire les protocoles de sécurité sans-fil (WPA, WPA2, and WPA3)\n"
+					},
+					{
+						"name": "5.10 Configurer un WLAN en utilisant WPA2 PSK avec un GUI\n"
+					}
+				]
+			},
+			{
+				"name": "6.0 Automation et Programmabilité - 10%",
+				"objectifs": [
+					{
+						"name": "6.1 Expliquer comment l'automation impacte la gestion du réseau\n"
+					},
+					{
+						"name": "6.2 Comparer les réseaux traditionnels avec le réseau basé controlleur (controller-based)\n"
+					},
+					{
+						"name": "6.3 Décrire les architectures basées controlleur (controller-based) et software defined (overlay, underlay, et fabric)\n* 6.3.a Séparation du control plane et du data plane\n* 6.3.b APIs North-bound et south-bound\n"
+					},
+					{
+						"name": "6.4 Comparer la gestion traditionalle les périphériques campus avec une gestion des périphériques avec Cisco DNA Center\n"
+					},
+					{
+						"name": "6.5 Décrire les caractéristiques des APIs de type REST (CRUD, verbes HTTP, et encodage des données)\n"
+					},
+					{
+						"name": "6.6 Reconnaître les capacités des mécanismes de gestion des configuration comme Puppet, Chef, et Ansible\n"
+					},
+					{
+						"name": "6.7 Interpréter des données encodées en JSON\n"
+					}
+				]
+			}
+		]
+	}
+}
